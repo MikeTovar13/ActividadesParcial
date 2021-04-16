@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">ActividadesParcial</string>
+    <string name="main_bnt_add">Agregar Estudiante</string>
+    <string name="text_title">Estudiantes</string>
+    <string name="text_subtitle">Listado de estudiantes, puedes agregar y eliminar</string>
+    <string name="label_cc_student">Cédula:</string>
+    <string name="label_name_student">Nombre:</string>
+    <string name="label_lastName_student">Apellidos:</string>
+    <string name="label_phone_student">Teléfono:</string>
+    <string name="dialog_title">Agregar estudiante</string>
+    <string name="dialog_product_name">Cédula</string>
+    <string name="dialog_name_student">Nombres</string>
+    <string name="dialog_lastName_student">Apellidos</string>
+    <string name="dialog_phone_student">Teléfono</string>
+    <string name="dialog_btn_student">Agregar</string>
+    <string name="home_title">Fragmentos</string>
+    <string name="home_subtitle">Puedes ver el funcionamiento básico de fragmentos en Kotlin</string>
+    <string name="home_btn_back">Volver</string>
+    <string name="home_btn_time">Tiempo</string>
+    <string name="home_btn_image">Imagen</string>
+    <string name="title_delete">Eliminar estudiante</string>
+    <string name="subtitle_delete">Estas seguro que quieres eliminar este estudiante</string>
+    <string name="agree">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_btn_fragments">Fragmentos</string>
 </resources>
