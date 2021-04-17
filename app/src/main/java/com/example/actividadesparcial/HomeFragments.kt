@@ -11,13 +11,15 @@ class HomeFragments : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_fragments)
 
+        this.showFragment(TimeFragment())  // Load fragment default "time dialog fragment"
+
         // Buttons home
         home_btn_time.setOnClickListener {
-            this.showFragment(name = TimeFragment())  // Fragment "user data"
+            this.showFragment(name = TimeFragment())  // Fragment "time dialog fragment"
         }
 
         home_btn_image.setOnClickListener {
-            this.showFragment(name = ImageFragment()) // Fragment "user edit hobbies"
+            this.showFragment(name = ImageFragment()) // Fragment "image dialog fragment"
         }
 
         home_btn_back.setOnClickListener {

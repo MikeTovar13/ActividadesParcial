@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
             val dialog = StudentDialog(this) { cc, name, lastName, phone ->
                 this.addStudent(cc, name, lastName, phone)
             }
+            dialog.setCancelable(false)
             dialog.show()
         }
 

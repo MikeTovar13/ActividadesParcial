@@ -22,7 +22,13 @@
     <string name="subtitle_delete">Estas seguro que quieres eliminar este estudiante</string>
     <string name="agree">Aceptar</string>
     <string name="cancel">Cancelar</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="validation_add_student">Todos los campos son obligatorios</string>
     <string name="main_btn_fragments">Fragmentos</string>
+    <string name="time_time_button">Cambiar Time</string>
+    <string name="time_title">"Fragmento de TimePickerDialog "</string>
+    <string name="time_time_label">Time valor</string>
+    <string name="image_title">Fragmento de ImagenView</string>
+    <string name="image_image_label">Imagen valor</string>
+    <string name="image_image_button">Cambiar imagen</string>
+    <string name="time_time_value">00:00</string>
 </resources>

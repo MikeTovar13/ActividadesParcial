@@ -1,14 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ImageFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ImageFragment"
+    android:background="@drawable/background_fragments">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/image_title"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/image_title"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/image_image_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/image_image_label"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_title"
+        />
+
+    <ImageView
+        android:id="@+id/image_image_src"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_1"
+        android:tooltipText="1"
+        android:background="@drawable/item_student"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_image_label"
+        />
+
+    <Button
+        android:id="@+id/image_image_button"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/form_button"
+        android:text="@string/image_image_button"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_image_src"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

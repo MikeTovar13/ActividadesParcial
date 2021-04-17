@@ -14,3 +14,8 @@ Parcial de kotlin utilizando RecyclerView, adaptadores, fragmentos y Dialogs
 
 * Vistas iniciales
 * Funciones básicas para llamra fragmentos, dialogs y adaptadores
+
+#### Version - 1.2.0: (16/04/2021)
+
+* Fragmentos terminados view y activities
+* Validaciones básicas de formulario y otros detalles

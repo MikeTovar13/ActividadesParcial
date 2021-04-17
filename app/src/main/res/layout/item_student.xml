@@ -25,7 +25,7 @@
 
     <TextView
         android:id="@+id/label_cc_student"
-        android:layout_width="80dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
@@ -51,7 +51,7 @@
 
     <TextView
         android:id="@+id/label_name_student"
-        android:layout_width="80dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
@@ -75,7 +75,7 @@
 
     <TextView
         android:id="@+id/label_lastName_student"
-        android:layout_width="80dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
@@ -99,7 +99,7 @@
 
     <TextView
         android:id="@+id/label_phone_student"
-        android:layout_width="80dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
